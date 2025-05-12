@@ -26,3 +26,23 @@ let myObj = {
 const myfunction = function(){
     console.log("hello world")
 }
+
+//*********************************MEMORY*************************************************/
+
+//Stack(premitive) , Heap(non-premitive)
+
+let name = "abid"
+let anotherName = name 
+anotherName = "mohd abid"
+console.log(name)
+console.log(anotherName)
+
+let userOne = {
+    email : "abidrayeen05@gmail.com",
+    upi : "ajdjd",
+}
+
+let userTwo = userOne 
+userTwo.email = "abid@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
