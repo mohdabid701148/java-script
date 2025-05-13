@@ -22,7 +22,7 @@ let myObj = {
     name : "Abid",
     age : 19,
 }
-
+console.log(myObj.name)
 const myfunction = function(){
     console.log("hello world")
 }

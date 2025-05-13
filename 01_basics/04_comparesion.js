@@ -12,6 +12,6 @@
 // console.log(undefined>=0)
 //avoid above comparision
 
-// === strict check it also check data type
+// === strict check it also check the data type
 console.log("2"==2) // true
 console.log("2"===2) //false
