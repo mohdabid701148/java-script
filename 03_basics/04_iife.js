@@ -5,4 +5,4 @@
 
 ( (name) => {
     console.log(`DB Connect Two ${name}`);
-} )("Abid");
+} )("Abid"); 
